@@ -79,7 +79,7 @@ function App() {
 
       <section id="home" className="hero">
         <img
-          src="./assets/186abc42c4fa43b82a2d11ef4d9921d4c3f3411b.png"
+          src="/186abc42c4fa43b82a2d11ef4d9921d4c3f3411b.png"
           alt="Restaurant interior"
         />
         <div className="overlay" />
@@ -134,7 +134,7 @@ function App() {
             </p>
           </div>
           <img
-            src="http://localhost:3845/assets/1df9f524ed144a153bfac04ac8a8bf694a1bb456.png"
+            src="/1df9f524ed144a153bfac04ac8a8bf694a1bb456.png"
             alt="Dining hall"
             className="about-photo"
           />
@@ -176,7 +176,7 @@ function App() {
             ].map((id) => (
               <img
                 key={id}
-                src={`http://localhost:3845/assets/${id}.png`}
+                src={`/${id}.png`}
                 alt=""
               />
             ))}
