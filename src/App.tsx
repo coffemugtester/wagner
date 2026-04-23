@@ -79,7 +79,7 @@ function App() {
 
       <section id="home" className="hero">
         <img
-          src="http://localhost:3845/assets/186abc42c4fa43b82a2d11ef4d9921d4c3f3411b.png"
+          src="./assets/186abc42c4fa43b82a2d11ef4d9921d4c3f3411b.png"
           alt="Restaurant interior"
         />
         <div className="overlay" />
