@@ -14,7 +14,7 @@
 }
 
 .section-soft {
-  background: #fffbeb;
+  background: #cabca4;
 }
 
 .nav {
@@ -32,7 +32,7 @@
 }
 
 .logo {
-  color: #bb4d00;
+  color: #800020;
   font-family: Cinzel, serif;
   font-size: 24px;
   letter-spacing: 1.2px;
@@ -83,6 +83,7 @@
 }
 
 .hero h1 {
+  color: #fff;
   font-family: Georgia, serif;
   font-size: clamp(48px, 7vw, 72px);
   letter-spacing: 1.8px;
@@ -90,7 +91,7 @@
 }
 
 .hero .sub {
-  color: #fef3c6;
+  color: #fff;
   font-size: 34px;
   font-style: italic;
   margin-top: 16px;
@@ -104,7 +105,7 @@
 }
 
 .button {
-  background: #e17100;
+  background: #800020;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -118,7 +119,7 @@
 h2,
 h3,
 h4 {
-  color: #973c00;
+  color: #800020;
   font-family: Cinzel, serif;
   font-weight: 400;
   text-align: center;
@@ -142,6 +143,17 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
+.two-col > div:first-child {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+.two-col h2 {
+  text-align: left;
+}
+
 .two-col p {
   font-size: 22px;
   line-height: 1.35;
@@ -159,19 +171,19 @@ h2 {
 }
 
 .menu-section {
-  border-top: 1px solid #fee685;
+  border-top: 1px solid #cabca4;
   margin-top: 54px;
   padding-top: 34px;
 }
 
 .menu-section h3 {
-  color: #bb4d00;
+  color: #800020;
   font-size: 34px;
   margin: 0;
 }
 
 .menu-type {
-  color: #e17100;
+  color: #a0522d;
   font-size: 18px;
   letter-spacing: 0.7px;
   margin: 6px 0 24px;
@@ -199,7 +211,7 @@ h2 {
 }
 
 .menu-item span {
-  color: #bb4d00;
+  color: #800020;
   font-size: 28px;
   white-space: nowrap;
 }
@@ -224,8 +236,8 @@ h2 {
 }
 
 .reservation-form {
-  background: #fffbeb;
-  border: 1px solid #fee685;
+  background: #cabca4;
+  border: 1px solid #e5d4b5;
   border-radius: 10px;
   display: grid;
   gap: 16px;
@@ -235,7 +247,7 @@ h2 {
 }
 
 .reservation-form input {
-  border: 1px solid #fee685;
+  border: 1px solid #e5d4b5;
   border-radius: 4px;
   font-family: inherit;
   font-size: 18px;
@@ -248,15 +260,16 @@ h2 {
 }
 
 .contact-line {
-  color: #bb4d00;
+  color: #800020;
   font-size: 24px;
+  font-weight: 600;
   margin: 0;
   text-align: center;
 }
 
 .footer {
-  background: #262626;
-  color: #fee685;
+  background: #800020;
+  color: rgba(202, 188, 164, 0.9);
   margin-top: 80px;
   padding: 56px 0;
 }
@@ -269,7 +282,7 @@ h2 {
 
 .footer h3,
 .footer h4 {
-  color: #ffb900;
+  color: #cabca4;
   margin: 0 0 10px;
   text-align: left;
 }
