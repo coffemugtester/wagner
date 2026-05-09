@@ -78,10 +78,7 @@ function App() {
       </header>
 
       <section id="home" className="hero">
-        <img
-          src="/186abc42c4fa43b82a2d11ef4d9921d4c3f3411b.png"
-          alt="Restaurant interior"
-        />
+        <img src="/1.jpg" alt="Restaurant interior" />
         <div className="overlay" />
         <div className="hero-copy">
           <h1>CAFÉ WAGNER</h1>
@@ -134,7 +131,7 @@ function App() {
             </p>
           </div>
           <img
-            src="/1df9f524ed144a153bfac04ac8a8bf694a1bb456.png"
+            src="/wagner-kuchen.jpeg"
             alt="Dining hall"
             className="about-photo"
           />
@@ -168,17 +165,8 @@ function App() {
           <h2>Galerie</h2>
           <p className="caption">Momente aus unserem kulinarischen Theater</p>
           <div className="gallery-grid">
-            {[
-              "f370f90f0c67381042d79302dd22d0cc065b32ea",
-              "50ff074799c88c0b5b061f115aebad43f063baa0",
-              "9b528826d954a1e9aa8655bdaa3e24f7298792f6",
-              "b1403e85b166347485e31bc702ef88dcbfa17591",
-            ].map((id) => (
-              <img
-                key={id}
-                src={`/${id}.png`}
-                alt=""
-              />
+            {["6", "4", "3", "2"].map((id) => (
+              <img key={id} src={`/${id}.jpg`} alt="" />
             ))}
           </div>
         </div>

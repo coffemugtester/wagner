@@ -163,6 +163,9 @@ h2 {
 .about-photo {
   border-radius: 10px;
   box-shadow: 0 20px 36px rgb(0 0 0 / 24%);
+  height: 608px;
+  object-fit: cover;
+  object-position: center;
   width: 100%;
 }
 
