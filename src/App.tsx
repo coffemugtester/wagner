@@ -165,7 +165,7 @@ function App() {
           <h2>Galerie</h2>
           <p className="caption">Momente aus unserem kulinarischen Theater</p>
           <div className="gallery-grid">
-            {["6", "4", "3", "2"].map((id) => (
+            {["6", "4", "3_clean", "2"].map((id) => (
               <img key={id} src={`/${id}.jpg`} alt="" />
             ))}
           </div>
